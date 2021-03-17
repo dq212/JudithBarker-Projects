@@ -1,0 +1,20 @@
+<svg id="_50_cta.svg" data-name="50%  cta.svg" xmlns="http://www.w3.org/2000/svg" width="80.812" height="19.734" viewBox="0 0 161.625 39.469">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eaf5fb;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 7px;
+        fill: #002554;
+        text-anchor: middle;
+        font-family: "Avenir Next";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M26.688,235.905H188.3v39.47H26.688v-39.47Z" transform="translate(-26.688 -235.906)"/>
+  <text id="LEARN_MORE" data-name="LEARN MORE" class="cls-2" transform="translate(80.581 27.485) scale(2.835)">LEARN MORE</text>
+</svg>

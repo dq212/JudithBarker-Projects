@@ -1,0 +1,13 @@
+{
+  "generator-banner": {
+    "nameSpace": "LINEAGE",
+    "publisher": "doubleclick",
+    "bannerName": "LINEAGE_300x250_HTML",
+    "width": "300",
+    "height": "250",
+    "size": "150",
+    "includeFallbackIE": true,
+    "fallbackIEVersion": 9,
+    "doubleclickPlatform": "campaignManager"
+  }
+}
