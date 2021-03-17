@@ -7,23 +7,23 @@ var nameSpace = LINEAGE || {};
     var wrapper, clickThrough, logo, copy, cta, width, height, ids;
 
     // Query elements
-    const scrollWrapper = document.getElementById("scroll-wrapper");
-    const content = document.getElementById("content");
-    const anchor = document.getElementById("anchor");
-    const scrollbar = document.getElementById("scrollbar");
-    const track = document.getElementById("track");
-    const thumb = document.getElementById("thumb");
+    var scrollWrapper = document.getElementById("scroll-wrapper");
+    var content = document.getElementById("content");
+    var anchor = document.getElementById("anchor");
+    var scrollbar = document.getElementById("scrollbar");
+    var track = document.getElementById("track");
+    var thumb = document.getElementById("thumb");
 
     // Get the bounding rectangles
-    const wrapperRect = scrollWrapper.getBoundingClientRect();
+    var wrapperRect = scrollWrapper.getBoundingClientRect();
     // console.group("wrapper rect: ", wrapperRect);
-    const anchorRect = anchor.getBoundingClientRect();
+    var anchorRect = anchor.getBoundingClientRect();
     // console.log("anchor rect:", anchorRect);
 
     // Set the scrollbar position
-    const top = wrapperRect.top - anchorRect.top;
+    var top = wrapperRect.top - anchorRect.top;
     // console.log("wrapper rect top: ", wrapperRect.top);
-    const left = wrapperRect.left - 25;
+    var left = wrapperRect.left - 25;
     scrollbar.style.top = top + "px";
     scrollbar.style.left = left + "px";
 
@@ -31,17 +31,17 @@ var nameSpace = LINEAGE || {};
     scrollbar.style.height = wrapperRect.height + "px";
 
     // Set the initial height for thumb
-    const scrollRatio = content.clientHeight / content.scrollHeight;
-    const thumbRatio = track.offsetHeight / content.scrollHeight;
+    var scrollRatio = content.clientHeight / content.scrollHeight;
+    var thumbRatio = track.offsetHeight / content.scrollHeight;
     // console.log("scrollbar height: ", scrollbar.offsetHeight);
     // console.log("track height: ", track.offsetHeight);
     // console.log("thumb ratio: ", thumbRatio);
     // console.log("scroll ratio: ", scrollRatio);
     // console.log("scroll height: ", content.scrollHeight);
 
-    const pos = { top: 0, y: 0 };
+    var pos = { top: 0, y: 0 };
 
-    const mouseDownThumbHandler = function(e) {
+    var mouseDownThumbHandler = function(e) {
         console.log("mouseDown");
         pos = {
             // The current scroll
@@ -57,15 +57,14 @@ var nameSpace = LINEAGE || {};
         document.addEventListener("mouseup", mouseUpHandler);
     };
 
-    const mouseMoveHandler = function(e) {
+    var mouseMoveHandler = function(e) {
         // How far the mouse has been moved
-        const dy = e.clientY - pos.y;
-
+        var dy = e.clientY - pos.y;
         // Scroll the content
         content.scrollTop = pos.top + dy / scrollRatio;
     };
 
-    const mouseUpHandler = function(e) {
+    var mouseUpHandler = function(e) {
         thumb.classList.remove("grabbing");
         document.body.classList.remove("grabbing");
 
@@ -73,7 +72,7 @@ var nameSpace = LINEAGE || {};
         document.removeEventListener("mouseup", mouseUpHandler);
     };
 
-    const scrollContentHandler = function() {
+    var scrollContentHandler = function() {
         window.requestAnimationFrame(function() {
             thumb.style.top =
                 ((content.scrollTop / (1 - thumbRatio)) * 100) /
@@ -82,9 +81,9 @@ var nameSpace = LINEAGE || {};
         });
     };
 
-    const trackClickHandler = function(e) {
-        const bound = track.getBoundingClientRect();
-        const percentage = (e.clientY - bound.top) / bound.height;
+    var trackClickHandler = function(e) {
+        var bound = track.getBoundingClientRect();
+        var percentage = (e.clientY - bound.top) / bound.height;
         content.scrollTop =
             percentage * (content.scrollHeight - content.clientHeight);
     };
@@ -224,8 +223,7 @@ var nameSpace = LINEAGE || {};
 
     nameSpace.startAutoScroll = function() {
         console.log("should be scrolling");
-        const contentHeight = document.querySelector("#scroll-wrapper")
-            .offsetHeight;
+        var contentHeight = document.querySelector("#scroll-wrapper").offsetHeight;
         console.log("content height: ", contentHeight);
 
         gsap.to("#content", {
