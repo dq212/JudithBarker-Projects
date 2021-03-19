@@ -24,8 +24,8 @@ var nameSpace = LINEAGE || {};
     var top = wrapperRect.top - anchorRect.top;
     // console.log("wrapper rect top: ", wrapperRect.top);
     var left = wrapperRect.left - 25;
-    scrollbar.style.top = top + "px";
-    scrollbar.style.left = left + "px";
+    //scrollbar.style.top = top + "px";
+    // scrollbar.style.left = left + "px";
 
     // The scrollbar has the same height as the wrapper
     scrollbar.style.height = wrapperRect.height + "px";
@@ -42,7 +42,7 @@ var nameSpace = LINEAGE || {};
     var pos = { top: 0, y: 0 };
 
     var mouseDownThumbHandler = function(e) {
-        console.log("mouseDown");
+        // console.log("mouseDown");
         pos = {
             // The current scroll
             top: content.scrollTop,
@@ -76,7 +76,7 @@ var nameSpace = LINEAGE || {};
         window.requestAnimationFrame(function() {
             thumb.style.top =
                 ((content.scrollTop / (1 - thumbRatio)) * 100) /
-                (content.scrollHeight + 10) +
+                (content.scrollHeight + 12) +
                 "%";
         });
     };
@@ -222,14 +222,17 @@ var nameSpace = LINEAGE || {};
     // }
 
     nameSpace.startAutoScroll = function() {
-        console.log("should be scrolling");
+        // console.log("should be scrolling");
         var contentHeight = document.querySelector("#scroll-wrapper").offsetHeight;
-        console.log("content height: ", contentHeight);
+        // console.log("content height: ", contentHeight);
 
         gsap.to("#content", {
-            duration: 20,
-
-            scrollTo: { y: content.scrollHeight, autoKill: true },
+            duration: 36,
+            scrollTo: {
+                ease: Linear.easeIn,
+                y: content.scrollHeight,
+                autoKill: true,
+            },
         });
     };
 
@@ -241,7 +244,7 @@ var nameSpace = LINEAGE || {};
         // Code for animation
         timeline.play();
         // startBgImg();
-        gsap.delayedCall(1, nameSpace.startAutoScroll);
+        gsap.delayedCall(4, nameSpace.startAutoScroll);
         // gsap.delayedCall(	7.5, loop);
     };
 

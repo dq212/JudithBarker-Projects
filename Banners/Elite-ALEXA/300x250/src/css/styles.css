@@ -81,7 +81,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #click_through {
   z-index: 999;
-  height: 170px;
+  height: 250px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0); }
 
@@ -133,7 +133,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   cursor: grab; }
 
 #scrollbar {
-  position: absolute; }
+  position: absolute;
+  top: 175px;
+  left: 7px;
+  z-index: 1010; }
 
 .track {
   left: 8px;

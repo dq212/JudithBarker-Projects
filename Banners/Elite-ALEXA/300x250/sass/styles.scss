@@ -58,7 +58,7 @@ $height: 250px;
 #click_through {
     @extend .abs-pos;
     z-index: 999;
-    height: 170px;
+    height: $height;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0);
     // border: 1px solid #000000;
@@ -148,6 +148,9 @@ $height: 250px;
 
 #scrollbar {
     position: absolute;
+    top: 175px;
+    left: 7px;
+    z-index: 1010;
 }
 
 .track {
