@@ -9,7 +9,7 @@ var nameSpace = LINEAGE || {};
     // Query elements
     var scrollWrapper = document.getElementById("scroll-wrapper");
     var content = document.getElementById("content");
-    var anchor = document.getElementById("anchor");
+    // var anchor = document.getElementById("anchor");
     var scrollbar = document.getElementById("scrollbar");
     var track = document.getElementById("track");
     var thumb = document.getElementById("thumb");
@@ -17,13 +17,13 @@ var nameSpace = LINEAGE || {};
     // Get the bounding rectangles
     var wrapperRect = scrollWrapper.getBoundingClientRect();
     // console.group("wrapper rect: ", wrapperRect);
-    var anchorRect = anchor.getBoundingClientRect();
+    // var anchorRect = anchor.getBoundingClientRect();
     // console.log("anchor rect:", anchorRect);
 
     // Set the scrollbar position
-    var top = wrapperRect.top - anchorRect.top;
+    // var top = wrapperRect.top - anchorRect.top;
     // console.log("wrapper rect top: ", wrapperRect.top);
-    var left = wrapperRect.left - 25;
+    // var left = wrapperRect.left - 25;
     //scrollbar.style.top = top + "px";
     // scrollbar.style.left = left + "px";
 
