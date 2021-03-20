@@ -186,7 +186,7 @@ gulp.task("copy", ["clean", "cleanSprites"], function() {
 gulp.task("copyStatic", function() {
     gulp
         .src("./src/img/static.jpg")
-        .pipe(rename("Elite_ALEXA_300x250_STATIC.jpg"))
+        .pipe(rename("Elite_ALEXA_970x250_STATIC.jpg"))
         .pipe(gulp.dest("../STATICS/"));
 });
 
@@ -252,7 +252,7 @@ gulp.task(
     function() {
         return gulp
             .src(dist + "/*")
-            .pipe(zip("Elite_ALEXA_300x250_HTML.zip"))
+            .pipe(zip("Elite_ALEXA_970x250_HTML.zip"))
             .pipe(gulp.dest("../HTML/"));
     }
 );
