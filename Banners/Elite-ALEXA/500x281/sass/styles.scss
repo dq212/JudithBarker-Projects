@@ -86,7 +86,7 @@ $height: 281px;
 
 #scrollerHolder {
     @extend .abs-pos;
-    top: 240px;
+    top: 241px;
     left: 5px;
     width: $width - 10px;
     z-index: 200;
@@ -94,7 +94,7 @@ $height: 281px;
 
 #scroll-wrapper {
     position: absolute;
-    height: 40px;
+    height: 35px;
     width: 480px;
     left: 8px;
 }

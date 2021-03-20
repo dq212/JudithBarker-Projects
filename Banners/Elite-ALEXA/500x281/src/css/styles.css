@@ -86,14 +86,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: rgba(255, 255, 255, 0); }
 
 #scrollerHolder {
-  top: 240px;
+  top: 241px;
   left: 5px;
   width: 490px;
   z-index: 200; }
 
 #scroll-wrapper {
   position: absolute;
-  height: 40px;
+  height: 35px;
   width: 480px;
   left: 8px; }
 
