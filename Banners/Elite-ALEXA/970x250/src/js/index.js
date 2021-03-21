@@ -34,11 +34,10 @@ var nameSpace = LINEAGE || {};
     var scrollRatio = content.clientHeight / scrollWrapper.scrollHeight;
     // var thumbRatio = 0.61;
     //  track.offsetHeight / content.scrollHeight;
-    // console.log("scrollbar height: ", scrollbar.offsetHeight);
-    // console.log("track height: ", track.offsetHeight);
-    // console.log("thumb ratio: ", thumbRatio);
-    // console.log("scroll ratio: ", scrollRatio);
-    // console.log("scroll height: ", content.scrollHeight);
+    console.log("scrollbar height: ", scrollbar.offsetHeight);
+    console.log("track height: ", track.offsetHeight);
+    console.log("scroll ratio: ", scrollRatio);
+    console.log("scroll height: ", content.scrollHeight);
 
     var pos = { top: 0, y: 0 };
 
@@ -75,9 +74,19 @@ var nameSpace = LINEAGE || {};
 
     var scrollContentHandler = function() {
         window.requestAnimationFrame(function() {
-            var p = content.scrollTop / (track.scrollHeight - 15);
+            // var p = content.scrollTop / (track.scrollHeight - 15);
+            var p = content.scrollHeight / (track.offsetHeight + thumb.offsetHeight);
+
             // console.log(p);
-            thumb.style.top = p * (content.scrollHeight - track.clientHeight) + "%";
+            // console.log("content SCROLL TOP: ", content.scrollTop);
+            // console.log(content.scrollHeight - content.clientHeight);
+            // console.log("track offset height: ", track.offsetHeight);
+            // console.log("track client height: ", track.clientHeight);
+            // console.log("content offset height: ", content.offsetHeight);
+            // console.log("content client height: ", content.clientHeight);
+            // console.log("wrapper offset height: ", scrollWrapper.offsetHeight);
+            // console.log("wrapper client height: ", scrollWrapper.clientHeight);
+            thumb.style.top = p * content.scrollTop + "px";
             //         thumb.style.top = `${
             //     (content.scrollTop * content.clientHeight) /
             //     (content.scrollHeight * track.clientHeight)
