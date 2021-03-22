@@ -21,9 +21,9 @@ var nameSpace = LINEAGE || {};
     // console.log("anchor rect:", anchorRect);
 
     // Set the scrollbar position
-    var top = wrapperRect.top - anchorRect.top;
-    // console.log("wrapper rect top: ", wrapperRect.top);
-    var left = wrapperRect.left - 25;
+    // var top = wrapperRect.top - anchorRect.top;
+    // // console.log("wrapper rect top: ", wrapperRect.top);
+    // var left = wrapperRect.left - 25;
     //scrollbar.style.top = top + "px";
     // scrollbar.style.left = left + "px";
 
