@@ -1,0 +1,11 @@
+/Downloads
+/Assets
+.DS_Store
+.psd
+.ai
+.zip
+.gitignore
+/node_modules
+node_modules
+Assets
+.vscode
