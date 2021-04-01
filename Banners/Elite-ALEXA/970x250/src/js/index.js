@@ -195,23 +195,23 @@ var nameSpace = LINEAGE || {};
     };
 
     nameSpace.injectFallback = function() {
-        var body = document.body;
+        // var body = document.body;
 
-        while (body.firstChild) {
-            body.removeChild(body.firstChild);
-        }
+        // while (body.firstChild) {
+        //     body.removeChild(body.firstChild);
+        // }
 
-        var anchor = document.createElement("a");
-        anchor.style.cursor = "pointer";
+        // var anchor = document.createElement("a");
+        // anchor.style.cursor = "pointer";
 
-        var img = new Image();
-        img.src = "./img/static.jpg";
+        // var img = new Image();
+        // img.src = "./img/static.jpg";
 
-        anchor.appendChild(img);
-        anchor.onclick = function() {
-            window.open(window.clickTag);
-        };
-        document.body.appendChild(anchor);
+        // anchor.appendChild(img);
+        // anchor.onclick = function() {
+        //     window.open(window.clickTag);
+        // };
+        // document.body.appendChild(anchor);
     };
 
     nameSpace.initAnimation = function() {
