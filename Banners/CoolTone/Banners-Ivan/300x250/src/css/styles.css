@@ -93,7 +93,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scroll-wrapper {
   position: absolute;
-  height: 30px;
+  height: 26px;
   left: 20px; }
 
 .scroll-wrapper-class {
