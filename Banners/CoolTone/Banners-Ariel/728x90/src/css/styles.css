@@ -66,7 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #bg-color {
   top: 0px;
-  left: 585px;
+  left: 575px;
   background-color: #002554; }
 
 #wrapper {
@@ -88,15 +88,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scrollerHolder {
   top: 10px;
-  left: 603px;
+  left: 590px;
   height: 73px;
-  width: 115px;
+  width: 130px;
   z-index: 200; }
 
 #scroll-wrapper {
   position: absolute;
   height: 75px;
-  width: 120px; }
+  width: 140px; }
 
 .content-class {
   overflow: auto;
@@ -122,8 +122,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scrollbar {
   position: absolute;
-  top: 14px;
-  left: 588px;
+  top: 12px;
+  left: 575px;
   z-index: 1010; }
 
 .track {

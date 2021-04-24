@@ -35,7 +35,7 @@ $height: 90px;
 #bg-color {
     @extend .abs-pos;
     top: 0px;
-    left: 585px;
+    left: 575px;
     background-color: #002554;
 }
 
@@ -88,16 +88,16 @@ $height: 90px;
 #scrollerHolder {
     @extend .abs-pos;
     top: 10px;
-    left: 603px;
+    left: 590px;
     height: 73px;
-    width: 115px;
+    width: 130px;
     z-index: 200;
 }
 
 #scroll-wrapper {
     position: absolute;
     height: 75px;
-    width: 120px;
+    width: 140px;
     // left: 8px;
 }
 
@@ -145,8 +145,8 @@ $height: 90px;
 
 #scrollbar {
     position: absolute;
-    top: 14px;
-    left: 588px;
+    top: 12px;
+    left: 575px;
     z-index: 1010;
 }
 
