@@ -28,7 +28,8 @@ var nameSpace = LINEAGE || {};
     // scrollbar.style.left = left + "px";
 
     // The scrollbar has the same height as the wrapper
-    scrollbar.style.height = wrapperRect.height + "px";
+    // scrollbar.style.height = wrapperRect.height + "px";
+    scrollbar.style.height = 35 + "px";
 
     // Set the initial height for thumb
     var scrollRatio = content.clientHeight / content.scrollHeight;

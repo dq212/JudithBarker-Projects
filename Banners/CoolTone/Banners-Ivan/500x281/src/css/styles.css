@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #002554; }
 
 #bg-color {
-  top: 483px;
+  top: 482px;
   background-color: #002554; }
 
 #wrapper {
@@ -93,7 +93,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scroll-wrapper {
   position: absolute;
-  height: 38px;
+  height: 40px;
   left: 20px; }
 
 .scroll-wrapper-class {
@@ -134,7 +134,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scrollbar {
   position: absolute;
-  top: 246px;
+  top: 247px;
   left: 7px;
   z-index: 1010; }
 

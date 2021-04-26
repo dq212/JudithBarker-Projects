@@ -34,7 +34,7 @@ $height: 281px;
 
 #bg-color {
     @extend .abs-pos;
-    top: 483px;
+    top: 482px;
     background-color: #002554;
 }
 
@@ -94,7 +94,7 @@ $height: 281px;
 
 #scroll-wrapper {
     position: absolute;
-    height: 38px;
+    height: 40px;
     left: 20px;
 }
 
@@ -148,7 +148,7 @@ $height: 281px;
 
 #scrollbar {
     position: absolute;
-    top: 246px;
+    top: 247px;
     left: 7px;
     z-index: 1010;
 }
