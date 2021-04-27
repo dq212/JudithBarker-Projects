@@ -27,6 +27,13 @@ $height: 281px;
     overflow: hidden;
 }
 
+body {
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
 #bg {
     @extend .abs-pos;
     background-color: #002554;
@@ -34,7 +41,7 @@ $height: 281px;
 
 #bg-color {
     @extend .abs-pos;
-    top: 482px;
+    top: 481px;
     background-color: #002554;
 }
 
@@ -94,14 +101,14 @@ $height: 281px;
 
 #scroll-wrapper {
     position: absolute;
-    height: 40px;
+    height: 33px;
     left: 20px;
 }
 
 .scroll-wrapper-class {
     max-height: 200px;
     // background: #ff1199;
-    // overflow: hidden;
+    overflow: hidden;
 }
 
 #content {
@@ -113,10 +120,10 @@ $height: 281px;
     height: 100%;
     color: #ffffff;
     font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
-    font-size: 10px;
-    line-height: 1.2;
-    padding: 0 5px 5px 5px;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    line-height: 1.4em;
+    padding: 0px 5px 2px 5px;
 }
 
 .content-class .bold {
