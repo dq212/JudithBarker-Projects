@@ -68,8 +68,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #002554; }
 
 #bg-color {
-  height: 124px;
-  top: 476px;
+  height: 149px;
+  top: 465px;
   background-color: #002554; }
 
 #wrapper {
@@ -91,23 +91,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #isi {
   width: 270px;
-  height: 293px;
+  height: 480px;
   left: 0; }
 
 #scrollerHolder {
-  top: 490px;
+  top: 474px;
   left: 5px;
   width: 290px;
   z-index: 200; }
 
 #scroll-wrapper {
   position: absolute;
-  height: 94px;
+  height: 104px;
   left: 20px; }
 
 #content {
   overflow: auto;
-  height: 94px; }
+  height: 120px; }
 
 .content-class .bold {
   font-weight: 600; }
@@ -131,7 +131,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scrollbar {
   position: absolute;
-  top: 490px;
+  top: 474px;
   left: 4px;
   z-index: 1010; }
 

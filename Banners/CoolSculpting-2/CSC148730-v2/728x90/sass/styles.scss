@@ -87,7 +87,7 @@ $height: 90px;
 
 #isi {
     width: 209px;
-    height: 364px;
+    height: 348px;
     left: 0;
 }
 
@@ -105,7 +105,7 @@ $height: 90px;
 
 #scrollerHolder {
     @extend .abs-pos;
-    top: 10px;
+    top: 4px;
     left: 490px;
     width: $width - 10px;
     z-index: 200;
@@ -113,7 +113,7 @@ $height: 90px;
 
 #scroll-wrapper {
     position: absolute;
-    height: 68px;
+    height: 75px;
     left: 20px;
 }
 
@@ -125,7 +125,7 @@ $height: 90px;
 
 #content {
     overflow: auto;
-    height: 72px;
+    height: 82px;
 }
 
 // .content-class {
@@ -166,7 +166,7 @@ $height: 90px;
 
 #scrollbar {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 492px;
     z-index: 1010;
 }
@@ -176,7 +176,7 @@ $height: 90px;
     left: 8px;
     top: 3px;
     width: 2px;
-    height: 66px;
+    height: 75px;
     background: #c0c0c0;
 }
 

@@ -39,8 +39,8 @@ $height: 600px;
 
 #bg-color {
     @extend .abs-pos;
-    height: 124px;
-    top: 476px;
+    height: 149px;
+    top: 465px;
     background-color: #002554;
 }
 
@@ -88,7 +88,7 @@ $height: 600px;
 
 #isi {
     width: 270px;
-    height: 293px;
+    height: 480px;
     left: 0;
 }
 
@@ -106,7 +106,7 @@ $height: 600px;
 
 #scrollerHolder {
     @extend .abs-pos;
-    top: 490px;
+    top: 474px;
     left: 5px;
     width: $width - 10px;
     z-index: 200;
@@ -114,7 +114,7 @@ $height: 600px;
 
 #scroll-wrapper {
     position: absolute;
-    height: 94px;
+    height: 104px;
     left: 20px;
 }
 
@@ -126,7 +126,7 @@ $height: 600px;
 
 #content {
     overflow: auto;
-    height: 94px;
+    height: 120px;
 }
 
 // .content-class {
@@ -167,7 +167,7 @@ $height: 600px;
 
 #scrollbar {
     position: absolute;
-    top: 490px;
+    top: 474px;
     left: 4px;
     z-index: 1010;
 }

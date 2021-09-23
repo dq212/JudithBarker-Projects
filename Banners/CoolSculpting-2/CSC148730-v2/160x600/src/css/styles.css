@@ -88,10 +88,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #isi {
   width: 130px;
-  height: 552px; }
+  height: 532px; }
 
 #scrollerHolder {
-  top: 440px;
+  top: 443px;
   left: 4px;
   width: 150px;
   z-index: 200; }
@@ -126,7 +126,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scrollbar {
   position: absolute;
-  top: 440px;
+  top: 441px;
   left: 4px;
   z-index: 1010; }
 
@@ -134,7 +134,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 8px;
   top: 3px;
   width: 2px;
-  height: 150px;
+  height: 145px;
   background: #c0c0c0; }
 
 .thumb {

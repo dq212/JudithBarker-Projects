@@ -83,7 +83,7 @@ $height: 600px;
 
 #isi {
     width: 130px;
-    height: 552px;
+    height: 532px;
 }
 
 #legal {
@@ -100,7 +100,7 @@ $height: 600px;
 
 #scrollerHolder {
     @extend .abs-pos;
-    top: 440px;
+    top: 443px;
     left: 4px;
     width: $width - 10px;
     z-index: 200;
@@ -162,7 +162,7 @@ $height: 600px;
 
 #scrollbar {
     position: absolute;
-    top: 440px;
+    top: 441px;
     left: 4px;
     z-index: 1010;
 }
@@ -172,7 +172,7 @@ $height: 600px;
     left: 8px;
     top: 3px;
     width: 2px;
-    height: 150px;
+    height: 145px;
     background: #c0c0c0;
 }
 

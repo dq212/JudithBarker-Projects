@@ -88,23 +88,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #isi {
   width: 209px;
-  height: 364px;
+  height: 348px;
   left: 0; }
 
 #scrollerHolder {
-  top: 10px;
+  top: 4px;
   left: 490px;
   width: 718px;
   z-index: 200; }
 
 #scroll-wrapper {
   position: absolute;
-  height: 68px;
+  height: 75px;
   left: 20px; }
 
 #content {
   overflow: auto;
-  height: 72px; }
+  height: 82px; }
 
 .content-class .bold {
   font-weight: 600; }
@@ -128,7 +128,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scrollbar {
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 492px;
   z-index: 1010; }
 
@@ -136,7 +136,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 8px;
   top: 3px;
   width: 2px;
-  height: 66px;
+  height: 75px;
   background: #c0c0c0; }
 
 .thumb {
