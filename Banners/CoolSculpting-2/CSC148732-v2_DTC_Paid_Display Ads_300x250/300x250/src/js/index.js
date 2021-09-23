@@ -126,6 +126,8 @@ var nameSpace = LINEAGE || {};
             x: 0,
             autoAlpha: 0,
         });
+
+        gsap.set("#legal", { scale: 1.2, y: -6 });
         // gsap.set(['#cta', '#code'], { autoAlpha: 0 });
 
         wrapper = nameSpace.$("#wrapper");
