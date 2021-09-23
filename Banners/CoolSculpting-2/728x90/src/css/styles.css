@@ -53,7 +53,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-sizing: border-box;
   font-family: "Kanit", sans-serif; }
 
-.abs-pos, #bg, #bg-color, #wrapper, #border-box, #click_through, #border-gradient, #logo, #copy-1, #copy-2, #copy-3, #legal, #footnote, #cta, #scrollerHolder, #anchor, .track {
+.abs-pos, #bg, #bg-color, #wrapper, #border-box, #click_through, #border-gradient, #logo, #copy-1, #copy-2, #copy-3, #copy-4, #legal, #footnote, #cta, #scrollerHolder, #anchor, .track {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -66,7 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #bg-color {
   height: 90px;
-  left: 490px;
+  left: 488px;
   background-color: #002554; }
 
 #wrapper {
@@ -86,32 +86,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0); }
 
+#logo {
+  left: 15px; }
+
 #isi {
-  width: 209px;
-  height: 364px;
+  width: 220px;
+  height: 336px;
   left: 0; }
 
+#cta {
+  left: 15px; }
+
 #scrollerHolder {
-  top: 10px;
-  left: 490px;
+  top: 8px;
+  left: 482px;
   width: 718px;
   z-index: 200; }
 
 #scroll-wrapper {
   position: absolute;
-  height: 68px;
+  height: 70px;
   left: 20px; }
 
 #content {
   overflow: auto;
-  height: 72px; }
+  height: 76px; }
 
 .content-class .bold {
   font-weight: 600; }
 
 .content-class {
-  margin-right: -1rem;
-  padding-right: 1rem; }
+  margin-right: -2rem;
+  padding-right: 2rem; }
 
 #anchor {
   left: 5px;
@@ -128,19 +134,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scrollbar {
   position: absolute;
-  top: 10px;
-  left: 492px;
+  top: 8px;
+  left: 488px;
   z-index: 1010; }
 
 .track {
-  left: 8px;
+  left: 6px;
   top: 3px;
   width: 2px;
-  height: 66px;
+  height: 68px;
   background: #c0c0c0; }
 
 .thumb {
-  left: 6px;
+  left: 4px;
   position: absolute;
   background: #c0c0c0;
   width: 6px;

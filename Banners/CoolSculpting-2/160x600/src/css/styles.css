@@ -87,29 +87,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: rgba(255, 255, 255, 0); }
 
 #isi {
-  width: 137px;
+  width: 138px;
   height: 556px; }
 
 #scrollerHolder {
   top: 440px;
-  left: 4px;
+  left: 0px;
   width: 150px;
   z-index: 200; }
 
 #scroll-wrapper {
   position: absolute;
-  left: 20px; }
+  left: 18px; }
 
 #content {
   overflow: auto;
-  height: 145px; }
+  height: 148px; }
 
 .content-class .bold {
   font-weight: 600; }
 
 .content-class {
-  margin-right: -1rem;
-  padding-right: 1rem; }
+  margin-right: -2rem;
+  padding-right: 2rem; }
 
 #anchor {
   left: 5px;
@@ -127,7 +127,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #scrollbar {
   position: absolute;
   top: 440px;
-  left: 4px;
+  left: 0px;
   z-index: 1010; }
 
 .track {

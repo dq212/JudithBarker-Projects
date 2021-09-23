@@ -23,7 +23,7 @@ describe("static image", function() {
             "\nIncorrect width on the static image. It should be 300px wide"
         );
         expect(dimensions.height).toBe(
-            250,
+            600,
             "\nIncorrect height on the static image. It should be 250px tall"
         );
     });

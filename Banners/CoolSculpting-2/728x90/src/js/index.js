@@ -124,7 +124,7 @@ var nameSpace = LINEAGE || {};
             autoAlpha: 1,
         });
 
-        gsap.set(["#copy-1", "#legal", "#copy-2", "#copy-3", "#cta"], {
+        gsap.set(["#copy-1", "#legal", "#copy-2", "#copy-3", "#copy-4", "#cta"], {
             x: 0,
             autoAlpha: 0,
         });
@@ -229,6 +229,14 @@ var nameSpace = LINEAGE || {};
             .to(
                 ["#legal"], { duration: 1, autoAlpha: 1, ease: Power2.easeOut },
                 "+=0"
+            )
+            .to(
+                ["#copy-2", "#copy-3", "#legal"], { duration: 1, autoAlpha: 0, ease: Power2.easeOut },
+                "+=4"
+            )
+            .to(
+                ["#copy-4"], { duration: 1, autoAlpha: 1, ease: Power2.easeOut },
+                "-=0.5"
             );
 
         // .to(

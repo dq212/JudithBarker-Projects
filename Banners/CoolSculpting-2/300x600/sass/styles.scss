@@ -34,8 +34,8 @@ $height: 600px;
 
 #bg-color {
     @extend .abs-pos;
-    height: 88px;
-    top: 512px;
+    height: 168px;
+    top: 482px;
     background-color: #002554;
 }
 
@@ -82,8 +82,8 @@ $height: 600px;
 }
 
 #isi {
-    width: 130px;
-    height: 552px;
+    width: 264px;
+    height: 404px;
 }
 
 #legal {
@@ -100,7 +100,7 @@ $height: 600px;
 
 #scrollerHolder {
     @extend .abs-pos;
-    top: 440px;
+    top: 490px;
     left: 4px;
     width: $width - 10px;
     z-index: 200;
@@ -120,7 +120,7 @@ $height: 600px;
 
 #content {
     overflow: auto;
-    height: 145px;
+    height: 100px;
     // max-height: 173px;
 }
 
@@ -138,8 +138,8 @@ $height: 600px;
 }
 
 .content-class {
-    margin-right: -1rem;
-    padding-right: 1rem;
+    margin-right: -2rem;
+    padding-right: 2rem;
 }
 
 #anchor {
@@ -162,7 +162,7 @@ $height: 600px;
 
 #scrollbar {
     position: absolute;
-    top: 440px;
+    top: 490px;
     left: 4px;
     z-index: 1010;
 }
@@ -172,7 +172,7 @@ $height: 600px;
     left: 8px;
     top: 3px;
     width: 2px;
-    height: 150px;
+    height: 100px;
     background: #c0c0c0;
 }
 

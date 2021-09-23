@@ -19,7 +19,7 @@ describe("static image", function() {
         var dimensions = imageSize("src/img/static.jpg");
 
         expect(dimensions.width).toBe(
-            300,
+            970,
             "\nIncorrect width on the static image. It should be 970px wide"
         );
         expect(dimensions.height).toBe(

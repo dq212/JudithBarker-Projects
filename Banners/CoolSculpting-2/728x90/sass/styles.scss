@@ -35,7 +35,7 @@ $height: 90px;
 #bg-color {
     @extend .abs-pos;
     height: 90px;
-    left: 490px;
+    left: 488px;
     background-color: #002554;
 }
 
@@ -71,6 +71,7 @@ $height: 90px;
 
 #logo {
     @extend .abs-pos;
+    left: 15px;
 }
 
 #copy-1 {
@@ -85,9 +86,13 @@ $height: 90px;
     @extend .abs-pos;
 }
 
+#copy-4 {
+    @extend .abs-pos;
+}
+
 #isi {
-    width: 209px;
-    height: 364px;
+    width: 220px;
+    height: 336px;
     left: 0;
 }
 
@@ -101,19 +106,20 @@ $height: 90px;
 
 #cta {
     @extend .abs-pos;
+    left: 15px;
 }
 
 #scrollerHolder {
     @extend .abs-pos;
-    top: 10px;
-    left: 490px;
+    top: 8px;
+    left: 482px;
     width: $width - 10px;
     z-index: 200;
 }
 
 #scroll-wrapper {
     position: absolute;
-    height: 68px;
+    height: 70px;
     left: 20px;
 }
 
@@ -125,7 +131,7 @@ $height: 90px;
 
 #content {
     overflow: auto;
-    height: 72px;
+    height: 76px;
 }
 
 // .content-class {
@@ -142,8 +148,8 @@ $height: 90px;
 }
 
 .content-class {
-    margin-right: -1rem;
-    padding-right: 1rem;
+    margin-right: -2rem;
+    padding-right: 2rem;
 }
 
 #anchor {
@@ -166,22 +172,22 @@ $height: 90px;
 
 #scrollbar {
     position: absolute;
-    top: 10px;
-    left: 492px;
+    top: 8px;
+    left: 488px;
     z-index: 1010;
 }
 
 .track {
     @extend .abs-pos;
-    left: 8px;
+    left: 6px;
     top: 3px;
     width: 2px;
-    height: 66px;
+    height: 68px;
     background: #c0c0c0;
 }
 
 .thumb {
-    left: 6px;
+    left: 4px;
     position: absolute;
     background: #c0c0c0;
     width: 6px;

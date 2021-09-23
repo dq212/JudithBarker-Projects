@@ -65,8 +65,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #002554; }
 
 #bg-color {
-  height: 88px;
-  top: 512px;
+  height: 168px;
+  top: 482px;
   background-color: #002554; }
 
 #wrapper {
@@ -87,11 +87,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: rgba(255, 255, 255, 0); }
 
 #isi {
-  width: 130px;
-  height: 552px; }
+  width: 264px;
+  height: 404px; }
 
 #scrollerHolder {
-  top: 440px;
+  top: 490px;
   left: 4px;
   width: 290px;
   z-index: 200; }
@@ -102,14 +102,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #content {
   overflow: auto;
-  height: 145px; }
+  height: 100px; }
 
 .content-class .bold {
   font-weight: 600; }
 
 .content-class {
-  margin-right: -1rem;
-  padding-right: 1rem; }
+  margin-right: -2rem;
+  padding-right: 2rem; }
 
 #anchor {
   left: 5px;
@@ -126,7 +126,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 #scrollbar {
   position: absolute;
-  top: 440px;
+  top: 490px;
   left: 4px;
   z-index: 1010; }
 
@@ -134,7 +134,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 8px;
   top: 3px;
   width: 2px;
-  height: 150px;
+  height: 100px;
   background: #c0c0c0; }
 
 .thumb {

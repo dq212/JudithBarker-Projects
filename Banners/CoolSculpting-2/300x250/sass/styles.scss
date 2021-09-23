@@ -1,0 +1,198 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/transform";
+@import "compass/utilities/sprites";
+// set up variables
+$width: 300px;
+$height: 250px;
+// Uncomment to include sprites in your banner
+// $sprites: sprite-map("sprites/*.png");
+// to use sprites, place the image in the sprites folder and set the background for the desired element as follows:
+// .element { background: sprite($sprites, image-name); }
+// set all elements to be box-sizing: border box to include any border, padding and content, but not margin.
+*,
+:before,
+:after {
+    @include box-sizing(border-box);
+    font-family: "Kanit", sans-serif;
+}
+
+// 100% width and height elements that can be positioned easily absolutely
+.abs-pos {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: $width;
+    height: $height;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+#bg {
+    @extend .abs-pos;
+    background-color: #002554;
+}
+
+#bg-color {
+    @extend .abs-pos;
+    top: 162px;
+    background-color: #002554;
+}
+
+#wrapper {
+    @extend .abs-pos;
+    position: relative;
+    visibility: hidden;
+    &.show {
+        visibility: visible;
+    }
+}
+
+.sup {
+    vertical-align: super;
+    font-size: 6px;
+}
+
+#border-box {
+    @extend .abs-pos;
+    z-index: 100;
+    // cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #000000;
+}
+
+#click_through {
+    @extend .abs-pos;
+    z-index: 999;
+    height: $height;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    // border: 1px solid #000000;
+}
+
+#border-gradient {
+    @extend .abs-pos;
+}
+
+#logo {
+    @extend .abs-pos;
+}
+
+#copy-1 {
+    @extend .abs-pos;
+}
+
+#copy-2 {
+    @extend .abs-pos;
+}
+
+#isi {
+    width: 275px;
+    height: 296px;
+    left: 0;
+}
+
+#legal {
+    @extend .abs-pos;
+}
+
+#cta {
+    @extend .abs-pos;
+}
+
+#scrollerHolder {
+    @extend .abs-pos;
+    top: 173px;
+    left: 2px;
+    width: $width - 10px;
+    z-index: 200;
+}
+
+#scroll-wrapper {
+    position: absolute;
+    height: 80px;
+    left: 15px;
+}
+
+.scroll-wrapper-class {
+    // max-height: 296px;
+    // background: #ff1199;
+    // overflow: hidden;
+}
+
+#content {
+    overflow: auto;
+    height: 70px;
+    // max-height: 173px;
+}
+
+// .content-class {
+//     height: 100%;
+//     color: #ffffff;
+//     font-weight: 400;
+//     font-family: Arial, Helvetica, sans-serif;
+//     font-size: 10px;
+//     line-height: 1.2;
+//     padding: 0 0px 5px 0px;
+// }
+.content-class .bold {
+    font-weight: 600;
+}
+
+.content-class {
+    margin-right: -2rem;
+    padding-right: 2rem;
+}
+
+#anchor {
+    @extend .abs-pos;
+    left: 5px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    // background: brown;
+}
+
+.grabbing {
+    cursor: grabbing;
+    user-select: none;
+}
+
+.thumb {
+    cursor: grab;
+}
+
+#scrollbar {
+    position: absolute;
+    top: 172px;
+    left: 2px;
+    z-index: 1010;
+}
+
+.track {
+    @extend .abs-pos;
+    left: 5px;
+    top: 3px;
+    width: 2px;
+    height: 68px;
+    background: #c0c0c0;
+}
+
+.thumb {
+    left: 3px;
+    position: absolute;
+    background: #c0c0c0;
+    width: 6px;
+    height: 6px;
+    overflow: visible;
+    z-index: 300;
+    /* Take full width */
+}
