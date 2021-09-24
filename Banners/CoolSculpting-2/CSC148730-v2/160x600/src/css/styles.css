@@ -87,18 +87,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: rgba(255, 255, 255, 0); }
 
 #isi {
-  width: 130px;
+  width: 136px;
   height: 532px; }
 
 #scrollerHolder {
   top: 443px;
-  left: 4px;
+  left: 2px;
   width: 150px;
   z-index: 200; }
 
 #scroll-wrapper {
   position: absolute;
-  left: 20px; }
+  left: 18px; }
 
 #content {
   overflow: auto;
@@ -108,8 +108,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 600; }
 
 .content-class {
-  margin-right: -1rem;
-  padding-right: 1rem; }
+  margin-right: -2rem;
+  padding-right: 2rem; }
 
 #anchor {
   left: 5px;
@@ -131,14 +131,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 1010; }
 
 .track {
-  left: 8px;
+  left: 5px;
   top: 3px;
   width: 2px;
   height: 145px;
   background: #c0c0c0; }
 
 .thumb {
-  left: 6px;
+  left: 3px;
   position: absolute;
   background: #c0c0c0;
   width: 6px;

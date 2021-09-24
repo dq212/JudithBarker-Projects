@@ -86,8 +86,8 @@ $height: 600px;
 }
 
 #isi {
-    width: 138px;
-    height: 556px;
+    width: 128px;
+    height: 580px;
 }
 
 #legal {
@@ -104,7 +104,7 @@ $height: 600px;
 
 #scrollerHolder {
     @extend .abs-pos;
-    top: 440px;
+    top: 443px;
     left: 0px;
     width: $width - 10px;
     z-index: 200;
@@ -112,7 +112,7 @@ $height: 600px;
 
 #scroll-wrapper {
     position: absolute;
-    // height: 545px;
+    height: 148px;
     left: 18px;
 }
 
@@ -124,7 +124,7 @@ $height: 600px;
 
 #content {
     overflow: auto;
-    height: 148px;
+    height: 151px;
     // max-height: 173px;
 }
 
@@ -166,7 +166,7 @@ $height: 600px;
 
 #scrollbar {
     position: absolute;
-    top: 440px;
+    top: 444px;
     left: 0px;
     z-index: 1010;
 }
@@ -174,9 +174,9 @@ $height: 600px;
 .track {
     @extend .abs-pos;
     left: 8px;
-    top: 3px;
+    top: 5px;
     width: 2px;
-    height: 150px;
+    height: 142px;
     background: #c0c0c0;
 }
 

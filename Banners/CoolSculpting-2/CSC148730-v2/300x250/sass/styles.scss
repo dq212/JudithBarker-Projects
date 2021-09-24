@@ -115,7 +115,7 @@ $height: 250px;
 #scroll-wrapper {
     position: absolute;
     height: 70px;
-    left: 15px;
+    left: 20px;
 }
 
 .scroll-wrapper-class {
@@ -144,8 +144,8 @@ $height: 250px;
 }
 
 .content-class {
-    margin-right: -1rem;
-    padding-right: 1rem;
+    margin-right: -2rem;
+    padding-right: 2rem;
 }
 
 #anchor {
@@ -168,22 +168,22 @@ $height: 250px;
 
 #scrollbar {
     position: absolute;
-    top: 175px;
+    top: 174px;
     left: 2px;
     z-index: 1010;
 }
 
 .track {
     @extend .abs-pos;
-    left: 8px;
-    top: 3px;
+    left: 10px;
+    top: 0px;
     width: 2px;
-    height: 66px;
+    height: 64px;
     background: #c0c0c0;
 }
 
 .thumb {
-    left: 6px;
+    left: 8px;
     position: absolute;
     background: #c0c0c0;
     width: 6px;

@@ -82,7 +82,7 @@ $height: 600px;
 }
 
 #isi {
-    width: 130px;
+    width: 136px;
     height: 532px;
 }
 
@@ -101,7 +101,7 @@ $height: 600px;
 #scrollerHolder {
     @extend .abs-pos;
     top: 443px;
-    left: 4px;
+    left: 2px;
     width: $width - 10px;
     z-index: 200;
 }
@@ -109,7 +109,7 @@ $height: 600px;
 #scroll-wrapper {
     position: absolute;
     // height: 545px;
-    left: 20px;
+    left: 18px;
 }
 
 .scroll-wrapper-class {
@@ -138,8 +138,8 @@ $height: 600px;
 }
 
 .content-class {
-    margin-right: -1rem;
-    padding-right: 1rem;
+    margin-right: -2rem;
+    padding-right: 2rem;
 }
 
 #anchor {
@@ -169,7 +169,7 @@ $height: 600px;
 
 .track {
     @extend .abs-pos;
-    left: 8px;
+    left: 5px;
     top: 3px;
     width: 2px;
     height: 145px;
@@ -177,7 +177,7 @@ $height: 600px;
 }
 
 .thumb {
-    left: 6px;
+    left: 3px;
     position: absolute;
     background: #c0c0c0;
     width: 6px;
